@@ -1,0 +1,8 @@
+# Add common ignores to the root .gitignore
+cat << 'EOF' > .gitignore
+node_modules/
+.env
+.env.*
+dist/
+.DS_Store
+EOF
